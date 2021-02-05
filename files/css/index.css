@@ -16,12 +16,14 @@
 #visit-our-school {
     text-align: center;
     background-color: #eee;
-    padding: 80px;
+    padding: 60px;
     margin-bottom: 2em;
 }
 
 #visit-our-school p {
     text-align: left;
+    margin-left: 6em;
+    margin-right: 6em;
     margin-bottom: 2em;
     font-size: 1.25em;
 }
@@ -108,4 +110,8 @@ main hr {
     border: none;
     background-color: #eee;
     height: 1px;
+}
+
+#classroom-news {
+    font-size: 2em;
 }
