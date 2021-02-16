@@ -1,19 +1,19 @@
 require(__dirname + '/../aws-credentials.json'); // make sure that file is there before trying anything else
 const AWS = require('aws-sdk');
-
-if (
-    process.env.npm_package_url === "https://cse256-sp2021.github.io/information-foraging-isabelsang/"
-) {
-    throw new Error(
-        'Remember to change the url field in your package.json file to point to your github pages index.html.'
-    );
-}
+process.env.npm_package_url = "https://cse256-sp2021.github.io/information-foraging-isabelsang/";
+// if (
+//     process.env.npm_package_url === "https://cse256-sp2021.github.io/information-foraging-isabelsang/"
+// ) {
+//     throw new Error(
+//         'Remember to change the url field in your package.json file to point to your github pages index.html.'
+//     );
+// }
 
 AWS.config.loadFromPath(__dirname + '/../aws-credentials.json');
 
 const extQ = `<?xml version="1.0" encoding="UTF-8"?>
                     <ExternalQuestion xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd">
-                        <ExternalURL>${process.env.npm_package_url}?wustl_key=riley.mccuen.testing%26sandbox=false%26project=information-foraging%26iteration=1%26tag=math</ExternalURL>
+                        <ExternalURL>${process.env.npm_package_url}?wustl_key=riley.mccuen.testing&amp;sandbox=false&amp;project=information-foraging&amp;iteration=1&amp;tag=math</ExternalURL>
                         <FrameHeight>0</FrameHeight>
                     </ExternalQuestion>`;
 
