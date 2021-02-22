@@ -65,7 +65,7 @@
 .column h3 {
     text-align: left;
     color: white;
-    font-size: 1.25em;
+    font-size: 2em;
 }
 
 .column a {
@@ -110,8 +110,4 @@ main hr {
     border: none;
     background-color: #eee;
     height: 1px;
-}
-
-#classroom-news {
-    font-size: 2em;
 }

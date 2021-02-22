@@ -13,10 +13,18 @@ main li {
     display: list-item;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 19.2px;
-    height: 54.6667px;
+    /* height: 54.6667px; */
     line-height: 27.84px;
     list-style-image: none;
     list-style-position: outside;
     list-style-type: disc;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.descrip{
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 350;
+    font-style: italic;
 }

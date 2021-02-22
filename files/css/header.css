@@ -56,7 +56,7 @@ header {
 
 /* Links inside the navbar */
 
-.navbar a {
+.navbar a, #classrooms {
     float: left;
     font-size: 16px;
     color: white;
@@ -155,3 +155,11 @@ header a {
     width: 100%;
     margin-top: 43px;
   }
+
+/*    stuff I am adding       */
+#classrooms{
+    margin:0;
+    display:inline;
+    font-weight: normal;
+    padding: 0;
+}
