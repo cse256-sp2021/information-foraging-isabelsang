@@ -102,3 +102,8 @@ main li {
 #class-schedule td {
     border: 1px solid #ddd;
 }
+
+#hours p{
+    padding: 0;
+    margin: 0;
+}

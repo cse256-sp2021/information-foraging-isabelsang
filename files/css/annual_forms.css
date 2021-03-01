@@ -28,3 +28,11 @@ main li {
     font-weight: 350;
     font-style: italic;
 }
+
+.steps {
+    font-weight: 400;
+}
+
+#title {
+    font-weight: 400;
+}
