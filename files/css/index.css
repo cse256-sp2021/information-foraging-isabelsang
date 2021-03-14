@@ -111,3 +111,7 @@ main hr {
     background-color: #eee;
     height: 1px;
 }
+
+#main{
+    margin: 40px 200px;
+}

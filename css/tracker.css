@@ -86,12 +86,12 @@ span {
 }
 
 #mturk-top-banner-drop-down-content {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     top: 43px;
     left: 0;
     background-color: #eee;
-    z-index: 100;
+    /* z-index: 100; */
     padding: 10px 10px 10px 10px;
     border-left: 1px orange solid;
     border-right: 1px orange solid;

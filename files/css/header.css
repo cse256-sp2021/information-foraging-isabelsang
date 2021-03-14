@@ -13,6 +13,7 @@ header {
 #main-menu-container {
     width: 100%;
     background-color: #3d3d3d;
+    z-index: 100;
 }
 
 .container {
@@ -51,6 +52,9 @@ header {
     overflow: hidden;
     background-color: #3d3d3d;
     font-family: Arial;
+    padding:5px;
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -58,7 +62,7 @@ header {
 
 .navbar a, #classrooms {
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -154,6 +158,13 @@ header a {
     top: 0;
     width: 100%;
     margin-top: 43px;
+  }
+
+.sticky-with-mturk{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 330px; 
   }
 
 /*    stuff I am adding       */
