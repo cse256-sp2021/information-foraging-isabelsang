@@ -1,3 +1,9 @@
 @import url("common.css");
 @import url("side_menu.css"); 
 @import url("slideshow.css");
+
+
+.steps {
+    font-weight: 400;
+    font-size: 30px;
+}

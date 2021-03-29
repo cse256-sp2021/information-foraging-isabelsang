@@ -1,2 +1,19 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+
+#title{
+    font-weight: 400;
+}
+
+#subheader{
+    font-weight: 350;
+}
+
+#extra-help{
+    color: rgb(85, 85, 85);
+    font-size: 19.2px;
+    line-height: 27.84px;
+    margin-bottom: 19.2px;
+    margin-left: 40px;
+}
